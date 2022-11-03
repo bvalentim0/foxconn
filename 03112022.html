@@ -63,14 +63,12 @@
 <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> [<strong>DOUBLE_CHECK</strong>]</li>
 <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> [<strong>CONFIGURAÇÃO</strong>]</li>
 </ul>
-</li>
-</ul>
 <h2 id="111-sobre-rules">1.1.1 Sobre <code>Rules</code></h2>
 <blockquote>
 <h3 id="rules-na-base-de-dados-para-maclabelprintweb"><code>Rules</code> na Base de Dados para <code>MacLabelPrintWeb</code></h3>
 <pre><code class="language-SQL"><div><span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> RP.NAME <span class="hljs-keyword">AS</span> PROGRAM_NAME,R.NAME <span class="hljs-keyword">AS</span> PROGRAM_RULE
 <span class="hljs-keyword">FROM</span> FOCUS.R_ROLE_T R ,FOCUS.R_PROGRAM_T RP 
-<span class="hljs-keyword">WHERE</span> RP.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>
+<span class="hljs-keyword">WHERE</span> RP.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>;
 </div></code></pre>
 <blockquote>
 <ul>
@@ -86,6 +84,101 @@
 <li>CLOSE_ECR</li>
 <li>CONFIG_GROUP</li>
 </ul>
+</blockquote>
+</blockquote>
+<h2 id="112-novas-rules">1.1.2 Novas <code>Rules</code></h2>
+<blockquote>
+<h3 id="rules-adicionadas-na-base-de-dados-para-maclabelprintweb"><code>Rules</code> <strong>adicionadas</strong> na Base de Dados para <code>MacLabelPrintWeb</code></h3>
+<pre><code class="language-SQL"><div><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_ROLE_T R (R.NAME,R.  <span class="hljs-operator">&gt;</span>&quot;ProgramID&quot;) 
+<span class="hljs-keyword">VALUES</span> (<span class="hljs-string">&#x27;PRINT&#x27;</span>,(<span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> RP.ID <span class="hljs-keyword">FROM</span> FOCUS. <span class="hljs-operator">&gt;</span>R_PROGRAM_T RP <span class="hljs-keyword">WHERE</span> RP.NAME <span class="hljs-operator">=</span>  <span class="hljs-operator">&gt;</span><span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>));
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_ROLE_T R (R.NAME,R.  <span class="hljs-operator">&gt;</span>&quot;ProgramID&quot;) 
+<span class="hljs-keyword">VALUES</span> (<span class="hljs-string">&#x27;DOUBLE_CHECK&#x27;</span>,(<span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> RP.ID  <span class="hljs-operator">&gt;</span><span class="hljs-keyword">FROM</span> FOCUS.R_PROGRAM_T RP <span class="hljs-keyword">WHERE</span> RP.NAME <span class="hljs-operator">=</span>   <span class="hljs-operator">&gt;</span><span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>));
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_ROLE_T R (R.NAME,R.  <span class="hljs-operator">&gt;</span>&quot;ProgramID&quot;) 
+<span class="hljs-keyword">VALUES</span> (<span class="hljs-string">&#x27;CONFIGURATION&#x27;</span>,(<span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> RP.ID   <span class="hljs-operator">&gt;</span><span class="hljs-keyword">FROM</span> FOCUS.R_PROGRAM_T RP <span class="hljs-keyword">WHERE</span> RP.NAME <span class="hljs-operator">=</span>  <span class="hljs-operator">&gt;</span><span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>));
+<span class="hljs-keyword">COMMIT</span>;
+</div></code></pre>
+<blockquote>
+<p><code>Novas:</code></p>
+<ul>
+<li>PRINT</li>
+<li>DOUBLE_CHECK</li>
+<li>CONFIGURATION</li>
+</ul>
+</blockquote>
+</blockquote>
+<h2 id="113-adicionado-profiles-com-as-novas-rules">1.1.3 Adicionado <code>Profiles</code> com as novas Rules</h2>
+<blockquote>
+<h3 id="profiles-adicionados-na-base-de-dados-para-maclabelprintweb"><code>Profiles</code> <strong>adicionados</strong> na Base de Dados para <code>MacLabelPrintWeb</code></h3>
+<pre><code class="language-SQL"><div><span class="hljs-comment">--- PRINT</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_PROFILE_ROLE_T PR (PR.PROFILE_ID,PR.ROLE_ID) 
+<span class="hljs-keyword">VALUES</span> ((<span class="hljs-keyword">SELECT</span> 
+<span class="hljs-keyword">DISTINCT</span> D.PROFILE_ID 
+<span class="hljs-keyword">FROM</span> 
+FOCUS.R_ROLE_T A,
+FOCUS.R_PROGRAM_T B,
+FOCUS.R_PROFILE_T C,
+FOCUS.R_USER_PROFILE_T D,
+FOCUS.R_AUTHENTICATION_T U,
+FOCUS.R_PROFILE_ROLE_T e
+<span class="hljs-keyword">WHERE</span>
+A.&quot;ProgramID&quot; <span class="hljs-operator">=</span> B.id
+<span class="hljs-keyword">AND</span> B.ID <span class="hljs-operator">=</span> C.&quot;ProgramID&quot; 
+<span class="hljs-keyword">AND</span> C.ID <span class="hljs-operator">=</span> D.PROFILE_ID 
+<span class="hljs-keyword">AND</span> U.&quot;Name&quot;  <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;teste&#x27;</span> 
+<span class="hljs-keyword">AND</span> E.PROFILE_ID <span class="hljs-operator">=</span> C.ID
+<span class="hljs-keyword">AND</span> E.ROLE_ID <span class="hljs-operator">=</span> A.ID
+<span class="hljs-keyword">AND</span> B.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>),(<span class="hljs-keyword">SELECT</span> R.ID  <span class="hljs-keyword">FROM</span> FOCUS.R_ROLE_T R <span class="hljs-keyword">WHERE</span> R.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;PRINT&#x27;</span>));
+<span class="hljs-comment">--- DOUBLE_CHECK</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_PROFILE_ROLE_T PR (PR.PROFILE_ID,PR.ROLE_ID) 
+<span class="hljs-keyword">VALUES</span> ((<span class="hljs-keyword">SELECT</span> 
+<span class="hljs-keyword">DISTINCT</span> D.PROFILE_ID 
+<span class="hljs-keyword">FROM</span> 
+FOCUS.R_ROLE_T A,
+FOCUS.R_PROGRAM_T B,
+FOCUS.R_PROFILE_T C,
+FOCUS.R_USER_PROFILE_T D,
+FOCUS.R_AUTHENTICATION_T U,
+FOCUS.R_PROFILE_ROLE_T e
+<span class="hljs-keyword">WHERE</span>
+A.&quot;ProgramID&quot; <span class="hljs-operator">=</span> B.id
+<span class="hljs-keyword">AND</span> B.ID <span class="hljs-operator">=</span> C.&quot;ProgramID&quot; 
+<span class="hljs-keyword">AND</span> C.ID <span class="hljs-operator">=</span> D.PROFILE_ID 
+<span class="hljs-keyword">AND</span> U.&quot;Name&quot;  <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;teste&#x27;</span> 
+<span class="hljs-keyword">AND</span> E.PROFILE_ID <span class="hljs-operator">=</span> C.ID
+<span class="hljs-keyword">AND</span> E.ROLE_ID <span class="hljs-operator">=</span> A.ID
+<span class="hljs-keyword">AND</span> B.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;MacLabelPrintWeb&#x27;</span>),(<span class="hljs-keyword">SELECT</span> R.ID  <span class="hljs-keyword">FROM</span> FOCUS.R_ROLE_T R <span class="hljs-keyword">WHERE</span> R.NAME <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;DOUBLE_CHECK&#x27;</span>));
+<span class="hljs-comment">--- CONFIGURATION</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> FOCUS.R_PROFILE_ROLE_T PR (PR.PROFILE_ID,PR.ROLE_ID) 
+<span class="hljs-keyword">VALUES</span> ((<span class="hljs-keyword">SELECT</span> 
+<span class="hljs-keyword">DISTINCT</span> D.PROFILE_ID 
+<span class="hljs-keyword">FROM</span> 
+FOCUS.R_ROLE_T A,
+FOCUS.R_PROGRAM_T B,
+FOCUS.R_PROFILE_T C,
+FOCUS.R_USER_PROFILE_T D,
+FOCUS.R_AUTHENTICATION_T U,
+FOCUS.R_PROFILE_ROLE_T e
+<span class="hljs-keyword">WHERE</span>
+A.&quot;ProgramID&quot; <span class="hljs-operator">=</span> B.id
+<span class="hljs-keyword">AND</span> B.ID <span class="hljs-operator">=</span> C.&quot;ProgramID&quot; 
+<span class="hljs-keyword">AND</span> C.ID <span class="hljs-operator">=</span> D.PROFILE_ID 
+<span class="hljs-keyword">AND</span> U.&quot;Name&quot;  <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;teste&#x27;</span> 
+<span class="hljs-keyword">AND</span> E.PROFILE_ID <span class="hljs-operator">=</span> C.ID
+<span class="hljs-keyword">AND</span> E.ROLE_ID <span class="hljs-operator">=</span> A.ID
+<span class="hljs-string">&#x27;CONFIGURATION&#x27;</span>));
+<span class="hljs-keyword">COMMIT</span>;
+</div></code></pre>
+</blockquote>
+</li>
+</ul>
+<h2 id="12-resultado">1.2 Resultado</h2>
+<blockquote>
+<h3 id="121-resultado">1.2.1 Resultado</h3>
+<blockquote>
+<h4 id="122-antes">1.2.2 Antes</h4>
+<p><img src="file:///c:\Developer\tasks\img\roles_on_db.png" alt=""></p>
+<h4 id="123-agora">1.2.3 <strong>Agora</strong></h4>
+<p><img src="file:///c:\Developer\tasks\img\profiles_on_db.png" alt=""></p>
 </blockquote>
 </blockquote>
 
