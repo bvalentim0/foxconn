@@ -1,6 +1,5 @@
-
-|![enter image description here](https://www.foxconn.com.br/img/logo.png) | ![Inex Brail](https://www.inexbr.com.br/wp-content/uploads/2022/07/logo-inex-azul.png) | [Bruno Valentim](mailto:Bruno.Valentim@inex.com.br)
-|--|--|--|
+| ![enter image description here](https://www.foxconn.com.br/img/logo.png) | ![Inex Brail](https://www.inexbr.com.br/wp-content/uploads/2022/07/logo-inex-azul.png) | [Bruno Valentim](mailto:Bruno.Valentim@inex.com.br)
+| :--- | :---: | ---: |
 
 # 1. Today tasks (03.11.2022)
 
