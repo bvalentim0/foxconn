@@ -7,6 +7,6 @@
 
 | Data | Título |
 | :--- | :--- |
-| *03.Nov.2022 (Quinta)* | [(MacLabelPrintWeb) Controle de Acesso](https://bvalentim0.github.io/foxconn/03112022.html) |
-| *04.Nov.2022 (Sexta)* | [(MacLabelPrintWeb) Testes e Ajustes Finos](https://bvalentim0.github.io/foxconn/04112022.html) |
+| *03.Nov.2022 (Quinta)* | [(MacLabelPrintWeb) Controle de Acesso](https://bvalentim0.github.io/foxconn/03112022.md) |
+| *04.Nov.2022 (Sexta)* | [(MacLabelPrintWeb) Testes e Ajustes Finos](https://bvalentim0.github.io/foxconn/04112022.md) |
 |  |  |
