@@ -9,5 +9,5 @@
 | :--- | :--- |
 | *03.Nov.2022 (Quinta)* | [(MacLabelPrintWeb) Controle de Acesso](./03112022.md) |
 | *04.Nov.2022 (Sexta)* | [(MacLabelPrintWeb) Testes e Ajustes Finos](./04112022.md) |
-| *07.Nov.2022 (Segunda)* | [(MacLabelPrintWeb) Testes](./07112022.md) |
+| *07.Nov.2022 (Segunda)* | [(MacLabelPrintWeb) Testes / (EMCMarble) Configuração](./07112022.md) |
 |  |  |
