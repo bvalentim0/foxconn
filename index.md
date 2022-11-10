@@ -12,5 +12,5 @@
 | *07.Nov.2022 (Segunda)* | [(MacLabelPrintWeb) Testes / (EMCMarble) Configuração](./07112022.md) |
 | *08.Nov.2022 (Terça)* | [(EMCMarble) Setup e Análise de Erros](./08112022.md) |
 | *09.Nov.2022 (Quarta)* | [(EMCMarble) Setup e Análise de Erros](./09112022.md) |
-| *10.Nov.2022 (Quinta)* | [(EMCMarble) Setup e Análise de Erros](./09112022.md) |
+| *10.Nov.2022 (Quinta)* | [(EMCMarble) Setup e Análise de Erros](./10112022.md) |
 |  |  |
