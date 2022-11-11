@@ -13,4 +13,5 @@
 | *08.Nov.2022 (Terça)* | [(EMCMarble) Setup e Análise de Erros](./08112022.md) |
 | *09.Nov.2022 (Quarta)* | [(EMCMarble) Setup e Análise de Erros](./09112022.md) |
 | *10.Nov.2022 (Quinta)* | [(EMCMarble) Setup e Análise de Erros](./10112022.md) |
+| *11.Nov.2022 (Sexta)* | [(EMCMarble) Setup e Análise de Erros](./11112022.md) |
 |  |  |
