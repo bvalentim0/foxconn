@@ -15,4 +15,5 @@
 | *10.Nov.2022 (Quinta)* | [(EMCMarble) Atendimento de Chamados](./10112022.md) |
 | *11.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./11112022.md) |
 | *16.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./16112022.md) |
+| *17.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./17112022.md) |
 |  |  |
