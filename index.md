@@ -14,6 +14,7 @@
 | *09.Nov.2022 (Quarta)* | [(EMCMarble) Setup e Análise de Chamados](./09112022.md) |
 | *10.Nov.2022 (Quinta)* | [(EMCMarble) Atendimento de Chamados](./10112022.md) |
 | *11.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./11112022.md) |
-| *16.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./16112022.md) |
-| *17.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./17112022.md) |
+| *16.Nov.2022 (Quarta)* | [(EMCMarble) Atendimento de Chamados](./16112022.md) |
+| *17.Nov.2022 (Quainta)* | [(EMCMarble) Atendimento de Chamados](./17112022.md) |
+| *18.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados](./18112022.md) |
 |  |  |
