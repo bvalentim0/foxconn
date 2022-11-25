@@ -20,5 +20,6 @@
 | *21.Nov.2022 (Segunda)* | [(EMCMarble) Atendimento de Chamados](./21112022.md) |
 | *22.Nov.2022 (Terça)* | [(EMCMarble) Atendimento de Chamados](./22112022.md) |
 | *23.Nov.2022 (Quarta)* | [(EMCMarble) Atendimento de Chamados  e (EMC Marble) Purge Analysis - Migração](./23112022.md) |
-| *24.Nov.2022 (Quarta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./24112022.md) |
+| *24.Nov.2022 (Quinta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./24112022.md) |
+| *25.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./25112022.md) |
 |  |  |
