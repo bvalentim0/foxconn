@@ -25,4 +25,6 @@
 | *28.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./28112022.md) |
 | *29.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./29112022.md) |
 | *30.Nov.2022 (Sexta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./30112022.md) |
+| *01.Dez.2022 (Sexta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
+| *02.Dez.2022 (Sexta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./02122022.md) |
 |  |  |
