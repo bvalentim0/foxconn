@@ -24,8 +24,8 @@
 | *25.Nov.2022 (Sexta)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./25112022.md) |
 | *28.Nov.2022 (Segunda)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./28112022.md) |
 | *29.Nov.2022 (Terça)* | [(EMCMarble) Atendimento de Chamados - Reportados em 23/11](./29112022.md) |
-| *30.Nov.2022 (Quarta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./30112022.md) |
-| *01.Dez.2022 (Quinta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
-| *02.Dez.2022 (Sexta)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./02122022.md) |
-| *05.Dez.2022 (Segunda)* | [EMC Marble) Black Label Print - Grupo WhatsApp](./05122022.md) |
+| *30.Nov.2022 (Quarta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./30112022.md) |
+| *01.Dez.2022 (Quinta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
+| *02.Dez.2022 (Sexta)* | [(EMC Marble) - EMC Purge Analisys](./02122022.md) |
+| *05.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./05122022.md) |
 |  |  |
