@@ -28,7 +28,7 @@
 | *30.Nov.2022 (Quarta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./30112022.md) |
 |  |  |
 
-## 1.1.2 `Dezembro`
+## 1.1.3 `Dezembro`
 | Data | Título |
 | :--- | :--- |
 | *01.Dez.2022 (Quinta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
