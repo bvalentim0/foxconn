@@ -28,4 +28,6 @@
 | *01.Dez.2022 (Quinta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
 | *02.Dez.2022 (Sexta)* | [(EMC Marble) - EMC Purge Analisys](./02122022.md) |
 | *05.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./05122022.md) |
+| *06.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./06122022.md) |
+| *07.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./07122022.md) |
 |  |  |
