@@ -49,5 +49,5 @@
 | *14.Dez.2022 (Quarta)* | [(EMC Marble) - EMC Purge Analisys](./14122022.md) |
 | *15.Dez.2022 (Quinta)* | [(EMC Marble) - EMC Purge Analisys](./15122022.md) |
 | *16.Dez.2022 (Sexta)* | [(EMC Marble) -  EMC Purge Analisys](./16122022.md) |
-| *19.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./17122022.md) |
+| *19.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./19122022.md) |
 |  |  |
