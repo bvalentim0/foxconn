@@ -5,13 +5,14 @@
 
 - [1 Tasks](#1-tasks)
   - [1.1 `Histórico Atuação`](#11-histórico-atuação)
-    - [1.1.2 `Novembro`](#112-novembro)
-    - [1.1.3 `Dezembro`](#113-dezembro)
+    - [1.1.2 `Novembro - 2022`](#112-novembro---2022)
+    - [1.1.3 `Dezembro - 2022`](#113-dezembro---2022)
+    - [1.2.1 `Janeiro - 2023`](#121-janeiro---2023)
 
 
 ## 1.1 `Histórico Atuação`
 
-### 1.1.2 `Novembro`
+### 1.1.2 `Novembro - 2022`
 | Data | Título |
 | :--- | :--- |
 | *03.Nov.2022 (Quinta)* | [(MacLabelPrintWeb) Controle de Acesso](./03112022.md) |
@@ -34,7 +35,7 @@
 | *30.Nov.2022 (Quarta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./30112022.md) |
 |  |  |
 
-### 1.1.3 `Dezembro`
+### 1.1.3 `Dezembro - 2022`
 | Data | Título |
 | :--- | :--- |
 | *01.Dez.2022 (Quinta)* | [(EMC Marble) Black Label Print - Grupo WhatsApp](./01122022.md) |
@@ -52,4 +53,19 @@
 | *19.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Purge Analisys](./19122022.md) |
 | *20.Dez.2022 (Terça)* | [(EMC Marble) - EMC Purge Analisys](./20122022.md) |
 | *21.Dez.2022 (Quarta)* | [(EMC Marble) - EMC Purge Analisys](./21122022.md) |
+| *22.Dez.2022 (Quinta)* | [(EMC Marble) - EMC Purge Analisys](./22122022.md) |
+| *23.Dez.2022 (Sexta)* | [(EMC Marble) - EMC Purge Analisys](./23122022.md) |
+| *26.Dez.2022 (Segunda)* | [(EMC Marble) - EMC Marble - Chamados](./26122022.md) |
+| *27.Dez.2022 (Terça)* | [(EMC Marble) - EMC Marble - Chamados](./27122022.md) |
+| *28.Dez.2022 (Quarta)* | [(EMC Marble) - EMC Marble - Melhorias](./28122022.md) |
+| *29.Dez.2022 (Quinta)* | [(EMC Marble) - EMC Marble - Melhorias](./29122022.md) |
+| *30.Dez.2022 (Sexta)* | [(EMC Marble) - EMC Marble - Melhorias](./30122022.md) |
+|  |  |
+
+### 1.2.1 `Janeiro - 2023`
+| Data | Título |
+| :--- | :--- |
+| *02.Jan.2023 (Segunda)* | [(EMC Marble) - EMC Marble - Melhorias](./02012023.md) |
+| *03.Jan.2022 (Terça)* | [(EMC Marble) - EMC Marble - Melhorias](./03012023.md) |
+| *04.Jan.2022 (Quarta)* | [(EMC Marble) - EMC Marble - Melhorias](./04012023.md) |
 |  |  |
