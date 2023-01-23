@@ -73,4 +73,12 @@
 | *09.Jan.2022 (Segunda)* | [(EMC Marble) - EMC Marble - Melhorias](./09012023.md) |
 | *10.Jan.2022 (Terça)* | [(EMC Marble) - EMC Marble - Melhorias](./10012023.md) |
 | *11.Jan.2022 (Quarta)* | [(EMC Marble) - EMC Marble - Melhorias](./11012023.md) |
+| *12.Jan.2022 (Quinta)* | [(EMC Marble) - EMC Marble - Melhorias](./12012023.md) |
+| *13.Jan.2022 (Sexta)* | [(EMC Marble) - EMC Marble - Melhorias](./13012023.md) |
+| *16.Jan.2022 (Segunda)* | [(EMC Marble) - EMC Marble - Melhorias](./16012023.md) |
+| *17.Jan.2022 (Terça)* | [(EMC Marble) - EMC Marble - Melhorias](./17012023.md) |
+| *18.Jan.2022 (Quarta)* | [(EMC Marble) - EMC Marble - Melhorias](./18012023.md) |
+| *19.Jan.2022 (Quinta)* | [(EMC Marble) - EMC Marble - Melhorias](./19012023.md) |
+| *20.Jan.2022 (Sexta)* | [(EMC Marble) - EMC Marble - Melhorias](./20012023.md) |
+| *23.Jan.2022 (Segunda)* | [(EMC Marble) - EMC Marble - Melhorias](./23012023.md) |
 |  |  |
